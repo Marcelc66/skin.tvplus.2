@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="1136">
+    <defaultcontrol always="true">9002</defaultcontrol>
+    <backgroundcolor>ff181818</backgroundcolor>    
+    <onload>Skin.Reset(TVPLUS.InfoPop)</onload>
+    
+    <controls>
+        <control type="group">
+            <centerleft>50%</centerleft>
+            <centertop>50%</centertop>
+            <height>100%</height>
+            <width>100%</width>
+            <control type="image">
+                <left>0</left>
+                <top>10</top>
+                <right>0</right>
+                <height>128</height>
+                <aspectratio>keep</aspectratio>
+                <texture>WelcomeLogo.png</texture>
+            </control>
+            <control type="image">
+                <left>0</left>
+                <top>138</top>
+                <right>0</right>
+                <bottom>0</bottom>
+                <texture border="40">dialogs/default/bg.png</texture>
+            </control>
+            <control type="image">
+                <left>30</left>
+                <top>224</top>
+                <right>30</right>
+                <bottom>100</bottom>
+                <texture border="5">dialogs/default/inner.png</texture>
+            </control>
+
+            <control type="label">
+                <description>header label</description>
+                <left>30</left>
+                <top>170</top>
+                <width>1830</width>
+                <height>40</height>
+                <textoffsetx>15</textoffsetx>
+                <font>font15_title</font>
+                <label>[COLOR=red][B]NEW AND UPCOMING[/B][/COLOR]</label>
+                <align>center</align>
+                <aligny>center</aligny>
+                <textcolor>dialogheader</textcolor>
+            </control>
+            <control type="textbox">
+                <left>60</left>
+                <top>238</top>
+                <width>1800</width>
+                <height>700</height>
+                <font>font11</font>
+                <align>left</align>
+                <pagecontrol>9003</pagecontrol>
+                <label>This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming. This is where the information goes about what is new and upcoming.This is where the information goes about what is new and upcoming.</label>
+                <textcolor>grey2</textcolor>
+                <autoscroll time="3000" delay="10000" repeat="10000">true</autoscroll>
+            </control>
+            <control type="scrollbar" id="9003">
+                <left>-1000</left>
+            </control>
+            <control type="grouplist">
+                <top>930</top>
+                <height>44</height>
+                <orientation>horizontal</orientation>
+                <align>center</align>
+                <itemgap>10</itemgap>
+                <control type="image">
+                    <height>44</height>
+                    <width>44</width>
+                    <texture>WelcomeWickedLogo.png</texture>
+                </control>
+                <control type="label">
+                    <label>Mr. WICKED Says...</label>
+                    <align>left</align>
+                    <width max="500">auto</width>
+                    <height>44</height>
+                    <aligny>center</aligny>
+                    <textcolor>grey3</textcolor>
+                </control>
+            </control>
+            <control type="button" id="9002">
+                <description>Yes button</description>
+                <left>653</left>
+                <top>990</top>
+                <width>614</width>
+                <height>60</height>
+                <label>OK</label>
+                <font>font15_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <onup>PageUp(9003)</onup>
+                <ondown>PageDown(9003)</ondown>
+                <onleft>9001</onleft>
+                <onright>9004</onright>
+                <texturefocus border="5">button_fo.png</texturefocus>
+                <texturenofocus border="5">dialogs/default/inner.png</texturenofocus>
+                <onclick>Skin.SetBool(TVPLUS.InfoPop)</onclick>
+                <onclick>Close</onclick>
+            </control>
+        </control>
+   
+  </controls>
+</window>
