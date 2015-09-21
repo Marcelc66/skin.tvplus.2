@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="1133">
+    <defaultcontrol always="true">9001</defaultcontrol>
+    <backgroundcolor>ff181818</backgroundcolor>    
+    <onload>Skin.Reset(TVPLUS.Welcome.Accepted)</onload>
+    <onload>Skin.SetString(System.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <onload>Skin.SetString(Custom1HomeItem.Path,StartAndroidActivity(&quot;com.filmon.android.aff129327Xxr21&quot;))</onload>
+    <onload>Skin.SetString(Custom2HomeItem.Path,ActivateWindow(10501,&quot;plugin://plugin.audio.radiotunes.com&quot;,return))</onload>
+    <onload>Skin.SetString(Custom3HomeItem.Path,ActivateWindow(10501,&quot;plugin://plugin.audio.tuneinradio&quot;,return))</onload>
+    <onload>Skin.SetString(Custom4HomeItem.Path,ActivateWindow(10025,sources://video,Return))</onload>
+    <onload>Skin.SetString(Custom5HomeItem.Path,ActivateWindow(MusicLibrary,Addons,return))</onload>
+    <onload>Skin.SetString(Custom6HomeItem.Path,ActivateWindow(Pictures,Addons,return))</onload>
+    <onload>Skin.SetString(FavoritesHomeItem.Disable,True)</onload>
+    <onload>Skin.SetString(WeatherHomeItem.Disable,True)</onload>
+    <onload>Skin.SetString(MusicVideoHomeItem.Disable,True)</onload>
+    <onload>Skin.SetString(PicturesHomeItem.Label,X ACT U)</onload>
+    <onload>Skin.SetString(PicturesHomeItem.MultiFanart,special://skin/x/Backgrounds/xactu.jpg)</onload>
+    <onload>Skin.SetString(PicturesHomeItem.Icon,special://skin/extras/icons/Customize.png)</onload>
+    <onload>Skin.SetString(PicturesHomeItem.Path,StartAndroidActivity(&quot;mobi.mgeek.TunnyBrowser&quot;))</onload>
+    <onload>Skin.SetString(PicturesHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(PicturesHomeItem.SubMenu,x101)</onload>
+    <onload>Skin.SetString(MusicHomeItem.Label,Favourites)</onload>
+    <onload>Skin.SetString(MusicHomeItem.MultiFanart,special://skin/x/Backgrounds/favourites.jpg)</onload>
+    <onload>Skin.SetString(MusicHomeItem.Icon,special://skin/extras/icons/Favorites.png)</onload>
+    <onload>Skin.SetString(MusicHomeItem.Path,ActivateWindow(Favourites))</onload>
+    <onload>Skin.SetString(MusicHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(MusicHomeItem.SubMenu,x8)</onload>
+    <onload>Skin.SetString(MovieHomeItem.Label,: TV PLUS :)</onload>
+    <onload>Skin.SetString(MovieHomeItem.MultiFanart,special://skin/x/Backgrounds/tvplus.jpg)</onload>
+    <onload>Skin.SetString(MovieHomeItem.Icon,special://skin/extras/icons/Customize.png)</onload>
+    <onload>Skin.SetString(MovieHomeItem.Path,ActivateWindow(Videos,Addons,return))</onload>
+    <onload>Skin.SetString(MovieHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(MovieHomeItem.Widget,addons://sources/video/)</onload>
+    <onload>Skin.SetString(MovieHomeItem.WidgetLabel,Video add-ons)</onload>
+    <onload>Skin.SetString(MovieHomeItem.WidgetType,1)</onload>
+    <onload>Skin.SetString(MovieHomeItem.SubMenu,x202)</onload>
+    <onload>Skin.SetString(TVShowHomeItem.Label,TVP NEWS)</onload>
+    <onload>Skin.SetString(TVShowHomeItem.MultiFanart,special://skin/x/Backgrounds/news.jpg)</onload>
+    <onload>Skin.SetString(TVShowHomeItem.Icon,special://skin/extras/icons/Customize.png)</onload>
+    <onload>Skin.SetString(TVShowHomeItem.Path,ActivateScreensaver)</onload>
+    <onload>Skin.SetString(TVShowHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(TVShowHomeItem.SubMenu,x303)</onload>
+    <onload>Skin.SetString(LiveTVHomeItem.Label,WICKED TV)</onload>
+    <onload>Skin.SetString(LiveTVHomeItem.MultiFanart,special://skin/x/Backgrounds/wickediptv.jpg)</onload>
+    <onload>Skin.SetString(LiveTVHomeItem.Icon,views/list/DefaultAddonPVRClient.png)</onload>
+    <onload>Skin.SetString(LiveTVHomeItem.Path,ActivateWindow(TVChannels))</onload>
+    <onload>Skin.SetString(LiveTVHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(LiveTVHomeItem.SubMenu,x12)</onload>
+    <onload>Skin.SetString(VideosHomeItem.Label,Screensaver)</onload>
+    <onload>Skin.SetString(VideosHomeItem.MultiFanart,special://skin/x/Backgrounds/screensaver.jpg)</onload>
+    <onload>Skin.SetString(VideosHomeItem.Icon,views/list/DefaultAddonWeather.png)</onload>
+    <onload>Skin.SetString(VideosHomeItem.Path,ActivateScreensaver)</onload>
+    <onload>Skin.SetString(VideosHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(VideosHomeItem.SubMenu,x7)</onload>
+    <onload>Skin.SetString(ProgramsHomeItem.Label,APPS)</onload>
+    <onload>Skin.SetString(ProgramsHomeItem.MultiFanart,special://skin/x/Backgrounds/apps.jpg)</onload>
+    <onload>Skin.SetString(ProgramsHomeItem.Icon,views/list/DefaultProgram.png)</onload>
+    <onload>Skin.SetString(ProgramsHomeItem.Path,ActivateWindow(Programs,Addons,return))</onload>
+    <onload>Skin.SetString(ProgramsHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(ProgramsHomeItem.SubMenu,x1)</onload>
+    <onload>Skin.SetString(SettingsHomeItem.Label,SYSTEM)</onload>
+    <onload>Skin.SetString(SettingsHomeItem.MultiFanart,special://skin/x/Backgrounds/system.jpg)</onload>
+    <onload>Skin.SetString(SettingsHomeItem.Icon,views/list/DefaultAddonService.png)</onload>
+    <onload>Skin.SetString(SettingsHomeItem.Path,ActivateWindow(Settings))</onload>
+    <onload>Skin.SetString(SettingsHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(SettingsHomeItem.SubMenu,x5)</onload>
+    <onload>Skin.SetString(ShutdownHomeItem.Label,*QUIT*)</onload>
+    <onload>Skin.SetString(ShutdownHomeItem.MultiFanart,special://skin/x/Backgrounds/quit.jpg)</onload>
+    <onload>Skin.SetString(ShutdownHomeItem.Icon,views/list/DefaultMovies.png)</onload>
+    <onload>Skin.SetString(ShutdownHomeItem.Path,ActivateWindow(shutdownmenu))</onload>
+    <onload>Skin.SetString(ShutdownHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(ShutdownHomeItem.SubMenu,x10)</onload>
+    <onload>Skin.SetString(FavoritesHomeItem.Label,TV SHOWS)</onload>
+    <onload>Skin.SetString(FavoritesHomeItem.Icon,views/list/DefaultTVShows.png)</onload>
+    <onload>Skin.SetString(FavoritesHomeItem.Path,ActivateWindow(Videos,TVShowTitles,return))</onload>
+    <onload>Skin.SetString(FavoritesHomeItem.SubMenu,x11)</onload>
+    <onload>Skin.SetString(WeatherHomeItem.Label,QUIT)</onload>
+    <onload>Skin.SetString(WeatherHomeItem.MultiFanart,special://skin/backgrounds/TVP/Quit.jpg)</onload>
+    <onload>Skin.SetString(WeatherHomeItem.Icon,special://skin/extras/icons/power.png)</onload>
+    <onload>Skin.SetString(WeatherHomeItem.Path,ActivateWindow(shutdownmenu))</onload>
+    <onload>Skin.SetString(WeatherHomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(WeatherHomeItem.SubMenu,x6)</onload>
+    <onload>Skin.SetString(Custom1HomeItem.Label,TVP LIVE TV)</onload>
+    <onload>Skin.SetString(Custom1HomeItem.MultiFanart,special://skin/x/Backgrounds/tvpluslive.jpg)</onload>
+    <onload>Skin.SetString(Custom1HomeItem.Icon,special://skin/extras/icons/Customize.png)</onload>
+    <onload>Skin.SetString(Custom1HomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(Custom1HomeItem.SubMenu,x404)</onload>
+    <onload>Skin.SetString(Custom2HomeItem.Label,RadioTunes)</onload>
+    <onload>Skin.SetString(Custom2HomeItem.MultiFanart,special://skin/x/Backgrounds/radiotunes.jpg)</onload>
+    <onload>Skin.SetString(Custom2HomeItem.Icon,special://skin/extras/icons/Customize.png)</onload>
+    <onload>Skin.SetString(Custom2HomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(Custom2HomeItem.SubMenu,x505)</onload>
+    <onload>Skin.SetString(Custom3HomeItem.Label,TuneIn Radio)</onload>
+    <onload>Skin.SetString(Custom3HomeItem.MultiFanart,special://skin/x/Backgrounds/tunein.jpg)</onload>
+    <onload>Skin.SetString(Custom3HomeItem.Icon,special://skin/extras/icons/Customize.png)</onload>
+    <onload>Skin.SetString(Custom3HomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(Custom3HomeItem.SubMenu,x606)</onload>
+    <onload>Skin.SetString(Custom4HomeItem.Label,Videos)</onload>
+    <onload>Skin.SetString(Custom4HomeItem.MultiFanart,special://skin/x/Backgrounds/videos.jpg)</onload>
+    <onload>Skin.SetString(Custom4HomeItem.Icon,views/list/DefaultVideo.png)</onload>
+    <onload>Skin.SetString(Custom4HomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(Custom4HomeItem.SubMenu,x2)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.Label,Music)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.MultiFanart,special://skin/x/Backgrounds/music.jpg)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.Icon,views/list/DefaultAddonMusic.png)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.Widget,addons://sources/audio/)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.WidgetLabel,Music add-ons)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.WidgetType,2)</onload>
+    <onload>Skin.SetString(Custom5HomeItem.SubMenu,x3)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.Label,Pictures)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.MultiFanart,special://skin/x/Backgrounds/pictures.jpg)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.Icon,views/list/DefaultPicture.png)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.BGType,1)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.Widget,addons://sources/image/)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.WidgetLabel,Picture add-ons)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.WidgetType,5)</onload>
+    <onload>Skin.SetString(Custom6HomeItem.SubMenu,x4)</onload>
+    <onload>Skin.SetString(Videos.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <onload>Skin.SetString(Music.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <onload>Skin.SetString(Movies.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <onload>Skin.SetString(TVShows.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <onload>Skin.SetString(Viz.Background,3)</onload>
+    <onload>Skin.SetString(LiveTV.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <onload>Skin.SetString(Apps.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <onload>Skin.SetString(Pictures.Fallback,special://skin/backgrounds/TVP/black-pattern-wallpaper-1920 x 1080.jpg)</onload>
+    <controls>
+        <control type="group">
+            <centerleft>50%</centerleft>
+            <centertop>50%</centertop>
+            <height>100%</height>
+            <width>100%</width>
+            <control type="image">
+                <left>0</left>
+                <top>10</top>
+                <right>0</right>
+                <height>128</height>
+                <aspectratio>keep</aspectratio>
+                <texture>WelcomeLogo.png</texture>
+            </control>
+            <control type="image">
+                <left>0</left>
+                <top>138</top>
+                <right>0</right>
+                <bottom>0</bottom>
+                <texture border="40">dialogs/default/bg.png</texture>
+            </control>
+            <control type="image">
+                <left>30</left>
+                <top>224</top>
+                <right>30</right>
+                <bottom>100</bottom>
+                <texture border="5">dialogs/default/inner.png</texture>
+            </control>
+
+            <control type="label">
+                <description>header label</description>
+                <left>30</left>
+                <top>170</top>
+                <width>1830</width>
+                <height>40</height>
+                <textoffsetx>15</textoffsetx>
+                <font>font15_title</font>
+                <label>[COLOR=red][B]IMPORTANT CONSUMER INFORMATION[/B][/COLOR]</label>
+                <align>center</align>
+                <aligny>center</aligny>
+                <textcolor>dialogheader</textcolor>
+            </control>
+            <control type="textbox">
+                <visible>IsEmpty(Window.Property(french))</visible>
+                <left>60</left>
+                <top>238</top>
+                <width>1800</width>
+                <height>700</height>
+                <font>font11</font>
+                <align>left</align>
+                <pagecontrol>9003</pagecontrol>
+                <label>Your TV PLUS Systems functionality is much like a personal computer that has unrestricted access to the internet and any and all the content thereof. As such we advise you that there are copyrighted TV Shows, Movies, Kids, Sports, Adult and every type of media imaginable accessible to the user of the TV PLUS System. As sold, the TV PLUS System is not configured to download, store or duplicate any media files and only streams network and/or internet content thus there are NEVER any copies or duplication made on your device or connected storage.[CR][CR]X ACT TV produces the TV PLUS Systems and is a technology integrator, distributer & reseller of “WICKED” Smart Home Media Streaming Systems for which the principal purpose is of a Smart TV Accessory, Personal Computing, Gaming as well as and not limited to Media Streaming of personal & legal content from legitimate internet sources for personal home viewing and as intended by the various providers. Furthermore please be mindful that Adult content is accessible via an internet connection and any minors should be supervised while using the TV PLUS System.[CR][CR]X ACT TV does not host, provide, archive, store, or distribute media of any kind to the exception of corporate marketing and X ACT University teaching materials and as such does not have any affiliation, involvement or participation with any media content host or provider. The TV PLUS System is not sold nor intended for commercial or public viewing use.[CR][CR]X ACT TV hereby advises it's clients and all potential users that it is entirely the responsibility of the consumer and/or user(s) to operate the system responsibly and accordance to the governing laws applicable in your specific region.[CR][CR]Be well advised that X ACT TV and/or it’s authorized Resellers will not discuss, support or provide any information by phone, email or via its website or otherwise regarding access to or the streaming/viewing of illegal or copyrighted media of any kind![CR][CR]I agree by acceptance hereof, the Consumer and/or User(s) of the TV PLUS System will hold harmless X ACT TV, it’s Authorized Resellers, Suppliers and Affiliates regarding any copyrights and/or viewing choices and/or options accessible with the TV PLUS product or Systems. For further information you may visit our website and consult our Terms &  Conditions document at www.XACTTV.ca</label>
+                <textcolor>grey2</textcolor>
+                <autoscroll time="3000" delay="10000" repeat="10000">true</autoscroll>
+            </control>
+            <control type="textbox">
+                <visible>!IsEmpty(Window.Property(french))</visible>
+                <left>60</left>
+                <top>238</top>
+                <width>1800</width>
+                <height>700</height>
+                <font>font11</font>
+                <align>left</align>
+                <pagecontrol>9003</pagecontrol>
+                <label>Votre téléviseur fonctionnalité Systems PLUS est un peu comme un ordinateur personnel qui a un accès illimité à l'internet et tout et tout le contenu de celui-ci. En tant que tel, nous vous conseillons qu'il ya Spectacles droit d'auteur de TV, Films, Enfants, Sports, adultes et tous les types de médias imaginables accessibles à l'utilisateur du Système TV PLUS. Lorsqu'il est vendu, le Système TV PLUS ne est pas configuré pour télécharger, stocker ou dupliquer des fichiers de médias et seulement flux réseau et / ou le contenu d'Internet donc il n'y a jamais de copies ou reproduction faite sur votre appareil ou stockage connecté. [CR] [CR] X LOI TV produit le téléviseur Systems PLUS et est un intégrateur de technologies, distributeur et revendeur de "Wicked" Smart Home Media Systems streaming dont le but principal est d'un téléviseur Smart Accessory, l'informatique personnelle, des jeux ainsi que et ne se limite pas aux médias le streaming de contenu personnel et juridique à partir de sources d'Internet légitimes pour la visualisation de la maison personnelle et comme prévu par les différents fournisseurs. De plus se il vous plaît être conscient que le contenu adulte est accessible via une connexion Internet et tous les mineurs doivent être surveillés en utilisant le Système TV PLUS. [CR] [CR] X LOI téléviseur ne hébergeons pas, fournir, archives, magasin, ou de distribuer des médias de toute genre à l'exception du marketing d'entreprise et des matériaux d'enseignement X Loi de l'Université et en tant que telle n'a pas de toute affiliation, la participation ou la participation à ne importe quel hôte de contenu multimédia ou le fournisseur. Le Système TV PLUS ne est pas vendu, ni destiné à un usage commercial ou de public. [CR] [CR] X LOI TV informe par les présentes ce est les clients et tous les utilisateurs potentiels que ce est entièrement de la responsabilité du consommateur et / ou de l'utilisateur (s) à faire fonctionner le système de manière responsable et conformément aux lois régissant applicables dans votre région spécifique. [CR] [CR] Soyez bien informés que X LOI téléviseur et / ou il est autorisé revendeurs ne seront pas discuter, de soutien ou de fournir des informations par téléphone, email ou via son site Internet ou sur l'accès ou la diffusion / visualisation des médias illégale ou droits d'auteur de toute nature! [CR] [CR] je suis d'accord par l'acceptation des présentes, la consommation et / ou utilisateur (s) du système TV PLUS se dégager de toute responsabilité X LOI TV, ce est auprès des revendeurs agréés, fournisseurs et filiales concernant les droits d'auteur et / ou de visualisation des choix et / ou d'options accessibles avec le téléviseur PLUS produit ou Systems. Pour plus d'informations vous pouvez visiter notre site Web et consulter notre Conditions document en www.XACTTV.ca</label>
+                <textcolor>grey2</textcolor>
+                <autoscroll time="3000" delay="10000" repeat="10000">true</autoscroll>
+            </control>
+            <control type="scrollbar" id="9003">
+                <left>-1000</left>
+            </control>
+            <control type="grouplist">
+                <top>930</top>
+                <height>44</height>
+                <orientation>horizontal</orientation>
+                <align>center</align>
+                <itemgap>10</itemgap>
+                <control type="image">
+                    <height>44</height>
+                    <width>44</width>
+                    <texture>WelcomeWickedLogo.png</texture>
+                </control>
+                <control type="label">
+                    <label>Mr. WICKED Says...</label>
+                    <align>left</align>
+                    <width max="500">auto</width>
+                    <height>44</height>
+                    <aligny>center</aligny>
+                    <textcolor>grey3</textcolor>
+                </control>
+            </control>
+            <control type="button" id="9001">
+                <description>Bilingual</description>
+                <left>30</left>
+                <top>990</top>
+                <width>614</width>
+                <height>60</height>
+                <label>Français / English</label>
+                <font>font15_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <onup>PageUp(9003)</onup>
+                <ondown>PageDown(9003)</ondown>
+                <onleft>noop</onleft>
+                <onright>9002</onright>
+                <texturefocus border="5">button_fo.png</texturefocus>
+                <texturenofocus border="5">dialogs/default/inner.png</texturenofocus>
+                <onclick condition="IsEmpty(Window.Property(french))">SetProperty(french,1)</onclick>
+                <onclick condition="!IsEmpty(Window.Property(french))">ClearProperty(french)</onclick>
+            </control>
+            <control type="button" id="9002">
+                <description>Yes button</description>
+                <left>653</left>
+                <top>990</top>
+                <width>614</width>
+                <height>60</height>
+                <label>ACCEPT & CONTINUE</label>
+                <font>font15_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <onup>PageUp(9003)</onup>
+                <ondown>PageDown(9003)</ondown>
+                <onleft>9001</onleft>
+                <onright>9004</onright>
+                <texturefocus border="5">button_fo.png</texturefocus>
+                <texturenofocus border="5">dialogs/default/inner.png</texturenofocus>
+                <onclick>Skin.SetBool(TVPLUS.Welcome.Accepted)</onclick>
+                <onclick>Close</onclick>
+            </control>
+            <control type="button" id="9004">
+                <description>No button</description>
+                <left>1276</left>
+                <top>990</top>
+                <width>614</width>
+                <height>60</height>
+                <label>REFUSE & EXIT</label>
+                <font>font15_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <onup>PageUp(9003)</onup>
+                <ondown>PageDown(9003)</ondown>
+                <onleft>9002</onleft>
+                <onright>noop</onright>
+                <texturefocus border="5">button_fo.png</texturefocus>
+                <texturenofocus border="5">dialogs/default/inner.png</texturenofocus>
+                <onclick>XBMC.Quit()</onclick>
+            </control>
+        </control>
+   
+  </controls>
+</window>

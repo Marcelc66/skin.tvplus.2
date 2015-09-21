@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="buttonMenu">
+	<defaultcontrol>8</defaultcontrol>
+	<include>dialogeffect</include>
+	<coordinates>
+		<system>1</system>
+		<left>0</left>
+		<top>0</top>
+	</coordinates>
+	<controls>
+		<control type="grouplist" id="9000">
+			<left>685</left>
+			<top>0</top>
+			<width>550</width>
+			<height>1080</height>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<onup>9000</onup>
+			<ondown>9000</ondown>
+			<itemgap>0</itemgap>
+			<align>center</align>
+			<control type="image" id="1">
+				<description>background image</description>
+				<width>550</width>
+				<height>34</height>
+				<texture border="30,20,30,2">dialog_top2.png</texture>
+			</control>
+            <control type="image">
+                <description>background image</description>
+                <left>0</left>
+                <width>100%</width>
+                <height>330</height>
+                <texture border="35,2,35,20">button_shutdown_nofocus.png</texture>
+            </control>
+			<control type="button" id="2">
+				<description>Exit button</description>
+				<width>550</width>
+				<height>60</height>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<align>center</align>
+				<textwidth>435</textwidth>
+				<textoffsetx>45</textoffsetx>
+				<texturefocus border="35,2,35,2">button_shutdown_focus.png</texturefocus>
+				<texturenofocus border="35,2,35,2">button_shutdown_nofocus.png</texturenofocus>
+				<onclick>Quit()</onclick>
+                <!-- <onclick>ActivateWindow(1134)</onclick> -->
+				<font>font14</font>
+				<label>YES (Quit)</label>
+				<visible>System.ShowExitButton</visible>
+			</control>
+			<control type="button" id="8">
+				<description>Cancel button</description>
+				<width>550</width>
+				<height>60</height>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<align>center</align>
+				<textwidth>435</textwidth>
+				<textoffsetx>45</textoffsetx>
+				<texturefocus border="35,2,35,2">button_shutdown_focus.png</texturefocus>
+				<texturenofocus border="35,2,35,2">button_shutdown_nofocus.png</texturenofocus>
+				<onclick>Close</onclick>
+                <!-- <onclick>ActivateWindow(1135)</onclick> -->
+				<!-- <visible>System.CanReboot</visible> -->
+				<font>font14</font>
+				<label>Cancel</label>
+			</control>
+			<control type="image" id="16">
+				<description>background image</description>
+				<left>0</left>
+				<top>0</top>
+				<width>550</width>
+				<height>34</height>
+				<texture border="30,2,30,20">dialog_bottom2.png</texture>
+			</control>
+		</control>
+        <control type="grouplist">
+            <left>705</left>
+            <top>0</top>
+            <width>510</width>
+            <height>1080</height>
+            <itemgap>0</itemgap>
+            <align>center</align>
+            <usecontrolcoords>true</usecontrolcoords>
+            <control type="label">
+                <top>8</top>
+                <left>45</left>
+                <width>420</width>
+                <height>60</height>
+                <textcolor>red</textcolor>
+                <align>center</align>
+                <font>font14</font>
+                <label>[B]QUIT CONFIRMATION[/B]</label>
+            </control>
+            <control type="textbox">
+                <left>20</left>
+                <width>470</width>
+                <height>240</height>
+                <textcolor>grey2</textcolor>
+                <align>center</align>
+                <font>font12</font>
+                <label>[COLOR=red]Are you sure you want to quit?[/COLOR][CR][CR]Click YES to confirm[CR][CR]You must use QUIT when leaving TV PLUS[CR]Please be patient as it can take up to 30 seconds to save files & updates</label>
+            </control>
+            <control type="textbox">
+                <left>45</left>
+                <width>420</width>
+                <height>120</height>
+                <textcolor>grey2</textcolor>
+                <align>center</align>
+                <font>-</font>
+            </control>
+        </control>
+		<control type="group">
+			<left>20</left>
+			<top>0</top>
+			<width>680</width>
+			<height>1080</height>
+			<control type="grouplist">
+				<itemgap>0</itemgap>
+				<align>center</align>
+				<width>100%</width>
+				<height>100%</height>
+				<control type="image">
+					<description>background image</description>
+					<width>100%</width>
+					<height>34</height>
+					<texture border="30,20,30,2">dialog_top2.png</texture>
+				</control>
+				<control type="image">
+					<description>background image</description>
+					<left>0</left>
+					<width>100%</width>
+					<height>450</height>
+					<texture border="35,2,35,20">button_shutdown_nofocus.png</texture>
+				</control>
+				<control type="image">
+					<description>background image</description>
+					<left>0</left>
+					<width>100%</width>
+					<height>34</height>
+					<texture border="30,2,30,20">dialog_bottom2.png</texture>
+				</control>
+			</control>
+			<control type="grouplist">
+				<height>100%</height>
+				<width>100%</width>
+				<itemgap>0</itemgap>
+				<align>center</align>
+				<usecontrolcoords>true</usecontrolcoords>
+				<control type="label">
+					<top>8</top>
+					<left>45</left>
+					<width>590</width>
+					<height>60</height>
+					<textcolor>red</textcolor>
+					<align>center</align>
+					<font>font14</font>
+					<label>[B]X ACT TV - Support[/B]</label>
+				</control>
+				<control type="textbox">
+					<left>45</left>
+					<width>590</width>
+					<height>120</height>
+					<textcolor>grey2</textcolor>
+					<align>center</align>
+					<font>font12</font>
+					<label>You must register your TV PLUS System on our website prior to Set-Up Assistance, Support, Warranty Services, and to recieve future Updates.</label>
+				</control>
+				<control type="label">
+					<left>45</left>
+					<width>590</width>
+					<height>60</height>
+					<textcolor>red</textcolor>
+					<align>center</align>
+					<font>font14</font>
+					<label>[B]Contact Support[/B]</label>
+				</control>
+				<control type="textbox">
+					<left>45</left>
+					<width>590</width>
+					<height>120</height>
+					<textcolor>grey2</textcolor>
+					<align>center</align>
+					<font>font12</font>
+					<label>Toll Free: 1.855.445.6060[CR]eMail: support@xacttv.ca[CR]www.XACTTV.ca/support</label>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<left>1220</left>
+			<top>0</top>
+			<width>680</width>
+			<height>1080</height>
+			<control type="grouplist">
+				<itemgap>0</itemgap>
+				<align>center</align>
+				<width>100%</width>
+				<height>100%</height>
+				<control type="image">
+					<description>background image</description>
+					<width>100%</width>
+					<height>34</height>
+					<texture border="30,20,30,2">dialog_top2.png</texture>
+				</control>
+				<control type="image">
+					<description>background image</description>
+					<left>0</left>
+					<width>100%</width>
+					<height>450</height>
+					<texture border="35,2,35,20">button_shutdown_nofocus.png</texture>
+				</control>
+				<control type="image">
+					<description>background image</description>
+					<left>0</left>
+					<width>100%</width>
+					<height>34</height>
+					<texture border="30,2,30,20">dialog_bottom2.png</texture>
+				</control>
+			</control>
+			<control type="grouplist">
+				<height>100%</height>
+				<width>100%</width>
+				<itemgap>0</itemgap>
+				<align>center</align>
+				<usecontrolcoords>true</usecontrolcoords>
+				<control type="label">
+					<top>8</top>
+					<left>45</left>
+					<width>590</width>
+					<height>60</height>
+					<textcolor>red</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<font>font14</font>
+					<label>[B]Love your TV PLUS[/B]</label>
+				</control>
+				<control type="textbox">
+					<left>45</left>
+					<width>590</width>
+					<height>300</height>
+					<textcolor>grey2</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<font>font12</font>
+					<label>Refer a Friend, Family Member or Co-Worker and we'll send you a $10 gift card of your choice as our Thank You![CR][CR][COLOR=red][B]Why not become a TV PLUS Reseller [CR]and make a few extra bucks![/B][/COLOR][CR][CR]Call: 1.855.445.6060[CR]eMail: sales@xacttv.ca[CR]www.XACTTV.ca/contact/resellers</label>
+				</control>
+
+			</control>
+		</control>
+	</controls>
+</window>

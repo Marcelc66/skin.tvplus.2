@@ -1,0 +1,48 @@
+[B]6.0.5[/B]
+Fix submenu items Quit / Reboot
+Fix shutdown menu confirmation
+Hardcode submenu Quit / Reboot
+Fix Aeon logo to Wicked logo
+Reset TVPLUS.MASTERMODE on entrance into Home screen
+
+[B]6.0.3[/B]
+Welcome screen will set all skin settings back to defaults
+-- This effectively hard codes all settings and allows reset to defaults
+Add TVPLUS.MASTERMODE setting to show settings/apps
+Skin.ToggleSetting(TVPLUS.MASTERMODE)
+
+
+[B]6.0.1[/B]
+-- Start 10am
+Download all new files
+Change id to skin.tvplus.6
+Change name to TVPLUS 6
+Add CustomWelcome.xml at id 1133
+Add New ButtonMenu (Quit Menu)
+Change Menu Font to Astera
+Change addon.xml description and summary of skin
+Home menu color to red
+Make theme and color scheme to red by default
+Modify shutdown menu box height
+Remove all shutdown options except exit and reboot
+** Move box down slightly (confer with Marcel regarding exact pos)
+Force home menu options 
+ON  biggergap (3 items) - lowermainmenu - Detach.RSS (attach to home bar) 
+OFF mainmenuicons
+
+-- 11am
+Add tvplus devil logo to clock bar on left side
+Add bilingual option in CustomWelcome
+Add Logo to CustomWelcome
+Add Mr Wicked Says at bottom
+Change font size on CustomWelcome to fit all text
+Add Mr Wicked Logo at bottom of CustomWelcome
+Add confirmation Dialog for quit and reboot - ActivateWindow(1134) and ActivateWindow(1135)
+Resize logos to correct size to prevent weird scaling issues
+Add Home.xml CustomWelcome onload
+
+-- Break at 12pm while TexturePacker compiles --
+
+
+
+

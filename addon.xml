@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.tvplus.2"
+  version="6.0.6"
+  name="TV PLUS v6"
+  provider-name="X ACT TV - Marcel">
+	<requires>
+		<import addon="xbmc.gui" version="5.9.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">TV PLUS - X ACT TV</summary>
+        <description lang="en">TV PLUS skin based upon original Aeon Nox 5 skin by BigNoid. TVPLUS intended for the exclusive use of the X ACT TV &quot; TV PLUS Media Streaming Devices. For further information please contact us at support@xacttv.ca</description>
+		<platform>all</platform>
+	</extension>
+</addon>
