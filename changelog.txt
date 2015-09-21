@@ -1,3 +1,13 @@
+[B]6.0.7[/B]
+Remove reboot submenu item
+Focus Yes Quit by default on quit menu
+Updated quit menu text
+Slightly widen quit menu boxes to accomodate new text
+Make OSD controls focused items red
+Make onscreen pause indicator red
+Make busy spinner red
+Add fullscreen video toggle on side menu
+
 [B]6.0.5[/B]
 Fix submenu items Quit / Reboot
 Fix shutdown menu confirmation

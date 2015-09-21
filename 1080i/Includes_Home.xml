@@ -9,15 +9,13 @@
                 <onclick>ActivateWindow(shutdownmenu)</onclick>
                 <icon>-</icon>
                 <thumb>-</thumb>
-                <!-- <visible>Library.HasContent(TVShows) + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible> -->
             </item>
-            <item>
+            <!-- <item>
                 <label>Reboot</label>
                 <onclick>ActivateWindow(1135)</onclick>
                 <icon>-</icon>
                 <thumb>-</thumb>
-                <!-- <visible>Library.HasContent(TVShows) + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible> -->
-            </item>
+            </item> -->
         </content>
     </include>
 

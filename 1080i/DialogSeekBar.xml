@@ -273,14 +273,14 @@
 				<top>0</top>
 				<width>186</width>
 				<height>186</height>
-				<texture>osd/bg_play_large.png</texture>
+				<texture colordiffuse="red">osd/bg_play_large.png</texture>
 			</control>
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
 				<width>186</width>
 				<height>186</height>
-				<texture>osd/btn_pause.png</texture>
+				<texture colordiffuse="red">osd/btn_pause.png</texture>
 			</control>
 		</control>
 		<control type="grouplist">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="buttonMenu">
-	<defaultcontrol>8</defaultcontrol>
+	<defaultcontrol>2</defaultcontrol>
 	<include>dialogeffect</include>
 	<coordinates>
 		<system>1</system>
@@ -44,9 +44,8 @@
 				<texturefocus border="35,2,35,2">button_shutdown_focus.png</texturefocus>
 				<texturenofocus border="35,2,35,2">button_shutdown_nofocus.png</texturenofocus>
 				<onclick>Quit()</onclick>
-                <!-- <onclick>ActivateWindow(1134)</onclick> -->
 				<font>font14</font>
-				<label>YES (Quit)</label>
+				<label>YES - QUIT</label>
 				<visible>System.ShowExitButton</visible>
 			</control>
 			<control type="button" id="8">
@@ -61,8 +60,6 @@
 				<texturefocus border="35,2,35,2">button_shutdown_focus.png</texturefocus>
 				<texturenofocus border="35,2,35,2">button_shutdown_nofocus.png</texturenofocus>
 				<onclick>Close</onclick>
-                <!-- <onclick>ActivateWindow(1135)</onclick> -->
-				<!-- <visible>System.CanReboot</visible> -->
 				<font>font14</font>
 				<label>Cancel</label>
 			</control>
@@ -100,7 +97,7 @@
                 <textcolor>grey2</textcolor>
                 <align>center</align>
                 <font>font12</font>
-                <label>[COLOR=red]Are you sure you want to quit?[/COLOR][CR][CR]Click YES to confirm[CR][CR]You must use QUIT when leaving TV PLUS[CR]Please be patient as it can take up to 30 seconds to save files & updates</label>
+                <label>[COLOR=red]Are you sure you want to quit?[/COLOR][CR][CR]Click YES to confirm[CR][CR]You must use QUIT when leaving TV PLUS[CR]Please be patient as it may take up to 1 min to save your files & to shutdown properly</label>
             </control>
             <control type="textbox">
                 <left>45</left>
@@ -112,9 +109,9 @@
             </control>
         </control>
 		<control type="group">
-			<left>20</left>
+			<left>0</left>
 			<top>0</top>
-			<width>680</width>
+			<width>700</width>
 			<height>1080</height>
 			<control type="grouplist">
 				<itemgap>0</itemgap>
@@ -151,7 +148,7 @@
 				<control type="label">
 					<top>8</top>
 					<left>45</left>
-					<width>590</width>
+					<width>610</width>
 					<height>60</height>
 					<textcolor>red</textcolor>
 					<align>center</align>
@@ -160,16 +157,16 @@
 				</control>
 				<control type="textbox">
 					<left>45</left>
-					<width>590</width>
+					<width>610</width>
 					<height>120</height>
 					<textcolor>grey2</textcolor>
 					<align>center</align>
 					<font>font12</font>
-					<label>You must register your TV PLUS System on our website prior to Set-Up Assistance, Support, Warranty Services, and to recieve future Updates.</label>
+					<label>You must register your TV PLUS System on our website! Prior to receiving Set-Up Assistance & Telephone Support as well as to activate your 1 year Device Warranty</label>
 				</control>
 				<control type="label">
 					<left>45</left>
-					<width>590</width>
+					<width>610</width>
 					<height>60</height>
 					<textcolor>red</textcolor>
 					<align>center</align>
@@ -178,7 +175,7 @@
 				</control>
 				<control type="textbox">
 					<left>45</left>
-					<width>590</width>
+					<width>610</width>
 					<height>120</height>
 					<textcolor>grey2</textcolor>
 					<align>center</align>
@@ -190,7 +187,7 @@
 		<control type="group">
 			<left>1220</left>
 			<top>0</top>
-			<width>680</width>
+			<width>700</width>
 			<height>1080</height>
 			<control type="grouplist">
 				<itemgap>0</itemgap>
@@ -227,7 +224,7 @@
 				<control type="label">
 					<top>8</top>
 					<left>45</left>
-					<width>590</width>
+					<width>610</width>
 					<height>60</height>
 					<textcolor>red</textcolor>
 					<focusedcolor>white</focusedcolor>
@@ -237,7 +234,7 @@
 				</control>
 				<control type="textbox">
 					<left>45</left>
-					<width>590</width>
+					<width>610</width>
 					<height>300</height>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>

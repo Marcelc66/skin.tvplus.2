@@ -441,6 +441,12 @@
 					<onclick>ActivateWindow(videoplaylist)</onclick>
 					<visible>!StringCompare(Playlist.Length(video),0)</visible>
 				</control>
+                <control type="button" id="613">
+                    <description>Go to fullscreen</description>
+                    <include>ButtonCommonValues</include>
+                    <label>Fullscreen video</label>
+                    <onclick>Fullscreen</onclick>
+                </control>
 			</control>
 		</control>
 	</controls>

@@ -14,7 +14,7 @@
 			<onclick>ActivateWindow(Videos,Movies,root)</onclick>
 			<property name="path">ActivateWindow(Videos,Movies,root)</property>
 			<property name="list">Movies</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -29,7 +29,7 @@
 			<onclick>ActivateWindow(Videos,TvShows,root)</onclick>
 			<property name="path">ActivateWindow(Videos,TvShows,root)</property>
 			<property name="list">TvShows</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -43,7 +43,7 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -57,7 +57,7 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -71,7 +71,7 @@
 			<onclick>ActivateWindow(Videos,Playlists,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Playlists,return)</property>
 			<property name="list">Playlists</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -85,7 +85,7 @@
 			<onclick>ActivateWindow(Videos,Root)</onclick>
 			<property name="path">ActivateWindow(Videos,Root)</property>
 			<property name="list">Root</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -100,7 +100,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Artists,return)</property>
 			<property name="list">Artists</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -115,7 +115,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Albums,return)</property>
 			<property name="list">Albums</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -130,7 +130,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Songs,return)</property>
 			<property name="list">Songs</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -144,7 +144,7 @@
 			<onclick>ActivateWindow(MusicFiles)</onclick>
 			<property name="path">ActivateWindow(MusicFiles)</property>
 			<property name="list">MusicFiles</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -158,7 +158,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -173,7 +173,7 @@
 			<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,root)</property>
 			<property name="list">root</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -187,7 +187,7 @@
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x4)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x4)</visible>
 			<property name="group">x4</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -201,7 +201,7 @@
 			<onclick>ActivateWindow(AddonBrowser)</onclick>
 			<property name="path">ActivateWindow(AddonBrowser)</property>
 			<property name="list">AddonBrowser</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -215,7 +215,7 @@
 			<onclick>ActivateWindow(SkinSettings)</onclick>
 			<property name="path">ActivateWindow(SkinSettings)</property>
 			<property name="list">SkinSettings</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -229,7 +229,7 @@
 			<onclick>ActivateWindow(FileManager)</onclick>
 			<property name="path">ActivateWindow(FileManager)</property>
 			<property name="list">FileManager</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -243,7 +243,7 @@
 			<onclick>ActivateWindow(Profiles)</onclick>
 			<property name="path">ActivateWindow(Profiles)</property>
 			<property name="list">Profiles</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -257,7 +257,7 @@
 			<onclick>ActivateWindow(SystemInfo)</onclick>
 			<property name="path">ActivateWindow(SystemInfo)</property>
 			<property name="list">SystemInfo</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -272,7 +272,7 @@
 			<onclick>Powerdown()</onclick>
 			<property name="path">Powerdown()</property>
 			<property name="list">Powerdown()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -287,7 +287,7 @@
 			<onclick>Reset()</onclick>
 			<property name="path">Reset()</property>
 			<property name="list">Reset()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -302,7 +302,7 @@
 			<onclick>Suspend()</onclick>
 			<property name="path">Suspend()</property>
 			<property name="list">Suspend()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -317,7 +317,7 @@
 			<onclick>Hibernate()</onclick>
 			<property name="path">Hibernate()</property>
 			<property name="list">Hibernate()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -332,7 +332,7 @@
 			<onclick>System.LogOff</onclick>
 			<property name="path">System.LogOff</property>
 			<property name="list">System.LogOff</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -347,7 +347,7 @@
 			<onclick>Quit</onclick>
 			<property name="path">Quit</property>
 			<property name="list">Quit</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -361,7 +361,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</property>
 			<property name="list">special://skin/extras/Unwatched.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -375,7 +375,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</property>
 			<property name="list">special://skin/extras/InProgress.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -390,7 +390,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</property>
 			<property name="list">videodb://recentlyaddedmovies/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -405,7 +405,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/sets/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/sets/,return)</property>
 			<property name="list">videodb://movies/sets/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -419,7 +419,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/genres/,return)</property>
 			<property name="list">videodb://movies/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -433,7 +433,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/years/,return)</property>
 			<property name="list">videodb://movies/years/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -447,7 +447,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/actors/,return)</property>
 			<property name="list">videodb://movies/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -461,7 +461,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/tags/,return)</property>
 			<property name="list">videodb://movies/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -476,7 +476,7 @@
 			<onclick>RunAddon(script.tv.show.next.aired,return)</onclick>
 			<property name="path">RunAddon(script.tv.show.next.aired,return)</property>
 			<property name="list">RunAddon(script.tv.show.next.aired,return)</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -490,7 +490,7 @@
 			<onclick>ActivateWindow(Videos,library://video/inprogressshows.xml,return)</onclick>
 			<property name="path">ActivateWindow(Videos,library://video/inprogressshows.xml,return)</property>
 			<property name="list">library://video/inprogressshows.xml</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -505,7 +505,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</property>
 			<property name="list">videodb://recentlyaddedepisodes/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -519,7 +519,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/genres/,return)</property>
 			<property name="list">videodb://tvshows/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -533,7 +533,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/years/,return)</property>
 			<property name="list">videodb://tvshows/years/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -547,7 +547,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/actors/,return)</property>
 			<property name="list">videodb://tvshows/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -562,7 +562,7 @@
 			<onclick>ActivateWindow(RadioChannels)</onclick>
 			<property name="path">ActivateWindow(RadioChannels)</property>
 			<property name="list">RadioChannels</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -577,7 +577,7 @@
 			<onclick>ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
 			<property name="list">TVChannels</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -592,7 +592,7 @@
 			<onclick>ActivateWindow(TVGuide)</onclick>
 			<property name="path">ActivateWindow(TVGuide)</property>
 			<property name="list">TVGuide</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -607,7 +607,7 @@
 			<onclick>ActivateWindow(TVRecordings)</onclick>
 			<property name="path">ActivateWindow(TVRecordings)</property>
 			<property name="list">TVRecordings</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -622,7 +622,7 @@
 			<onclick>ActivateWindow(TVTimers)</onclick>
 			<property name="path">ActivateWindow(TVTimers)</property>
 			<property name="list">TVTimers</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -636,7 +636,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/artists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/artists/,return)</property>
 			<property name="list">videodb://musicvideos/artists/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -650,7 +650,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/genres,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/genres,return)</property>
 			<property name="list">videodb://musicvideos/genres</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -665,7 +665,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</property>
 			<property name="list">videodb://recentlyaddedmusicvideos/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -679,7 +679,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/years/,return)</property>
 			<property name="list">videodb://musicvideos/years/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -693,7 +693,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/tags/,return)</property>
 			<property name="list">videodb://musicvideos/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -708,7 +708,7 @@
 			<onclick>ActivateWindow(Videos,Movies,root)</onclick>
 			<property name="path">ActivateWindow(Videos,Movies,root)</property>
 			<property name="list">Movies</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -723,7 +723,7 @@
 			<onclick>ActivateWindow(Videos,TvShows,root)</onclick>
 			<property name="path">ActivateWindow(Videos,TvShows,root)</property>
 			<property name="list">TvShows</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -737,7 +737,7 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -751,7 +751,7 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -765,7 +765,7 @@
 			<onclick>ActivateWindow(Videos,Playlists,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Playlists,return)</property>
 			<property name="list">Playlists</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -779,7 +779,7 @@
 			<onclick>ActivateWindow(Videos,Root)</onclick>
 			<property name="path">ActivateWindow(Videos,Root)</property>
 			<property name="list">Root</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -794,7 +794,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Artists,return)</property>
 			<property name="list">Artists</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -809,7 +809,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Albums,return)</property>
 			<property name="list">Albums</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -824,7 +824,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Songs,return)</property>
 			<property name="list">Songs</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -838,7 +838,7 @@
 			<onclick>ActivateWindow(MusicFiles)</onclick>
 			<property name="path">ActivateWindow(MusicFiles)</property>
 			<property name="list">MusicFiles</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -852,7 +852,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -867,7 +867,7 @@
 			<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,root)</property>
 			<property name="list">root</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -881,7 +881,7 @@
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x4)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x4)</visible>
 			<property name="group">x4</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -895,7 +895,7 @@
 			<onclick>ActivateWindow(AddonBrowser)</onclick>
 			<property name="path">ActivateWindow(AddonBrowser)</property>
 			<property name="list">AddonBrowser</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -909,7 +909,7 @@
 			<onclick>ActivateWindow(SkinSettings)</onclick>
 			<property name="path">ActivateWindow(SkinSettings)</property>
 			<property name="list">SkinSettings</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -923,7 +923,7 @@
 			<onclick>ActivateWindow(FileManager)</onclick>
 			<property name="path">ActivateWindow(FileManager)</property>
 			<property name="list">FileManager</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -937,7 +937,7 @@
 			<onclick>ActivateWindow(Profiles)</onclick>
 			<property name="path">ActivateWindow(Profiles)</property>
 			<property name="list">Profiles</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -951,7 +951,7 @@
 			<onclick>ActivateWindow(SystemInfo)</onclick>
 			<property name="path">ActivateWindow(SystemInfo)</property>
 			<property name="list">SystemInfo</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -966,7 +966,7 @@
 			<onclick>Powerdown()</onclick>
 			<property name="path">Powerdown()</property>
 			<property name="list">Powerdown()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -981,7 +981,7 @@
 			<onclick>Reset()</onclick>
 			<property name="path">Reset()</property>
 			<property name="list">Reset()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -996,7 +996,7 @@
 			<onclick>Suspend()</onclick>
 			<property name="path">Suspend()</property>
 			<property name="list">Suspend()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1011,7 +1011,7 @@
 			<onclick>Hibernate()</onclick>
 			<property name="path">Hibernate()</property>
 			<property name="list">Hibernate()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1026,7 +1026,7 @@
 			<onclick>System.LogOff</onclick>
 			<property name="path">System.LogOff</property>
 			<property name="list">System.LogOff</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1041,7 +1041,7 @@
 			<onclick>Quit</onclick>
 			<property name="path">Quit</property>
 			<property name="list">Quit</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1055,7 +1055,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</property>
 			<property name="list">special://skin/extras/Unwatched.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1069,7 +1069,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</property>
 			<property name="list">special://skin/extras/InProgress.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1084,7 +1084,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</property>
 			<property name="list">videodb://recentlyaddedmovies/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1099,7 +1099,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/sets/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/sets/,return)</property>
 			<property name="list">videodb://movies/sets/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1113,7 +1113,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/genres/,return)</property>
 			<property name="list">videodb://movies/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1127,7 +1127,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/years/,return)</property>
 			<property name="list">videodb://movies/years/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1141,7 +1141,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/actors/,return)</property>
 			<property name="list">videodb://movies/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1155,7 +1155,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/tags/,return)</property>
 			<property name="list">videodb://movies/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1170,7 +1170,7 @@
 			<onclick>RunAddon(script.tv.show.next.aired,return)</onclick>
 			<property name="path">RunAddon(script.tv.show.next.aired,return)</property>
 			<property name="list">RunAddon(script.tv.show.next.aired,return)</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1184,7 +1184,7 @@
 			<onclick>ActivateWindow(Videos,library://video/inprogressshows.xml,return)</onclick>
 			<property name="path">ActivateWindow(Videos,library://video/inprogressshows.xml,return)</property>
 			<property name="list">library://video/inprogressshows.xml</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1199,7 +1199,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</property>
 			<property name="list">videodb://recentlyaddedepisodes/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1213,7 +1213,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/genres/,return)</property>
 			<property name="list">videodb://tvshows/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1227,7 +1227,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/years/,return)</property>
 			<property name="list">videodb://tvshows/years/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1241,7 +1241,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/actors/,return)</property>
 			<property name="list">videodb://tvshows/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1256,7 +1256,7 @@
 			<onclick>ActivateWindow(RadioChannels)</onclick>
 			<property name="path">ActivateWindow(RadioChannels)</property>
 			<property name="list">RadioChannels</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1271,7 +1271,7 @@
 			<onclick>ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
 			<property name="list">TVChannels</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1286,7 +1286,7 @@
 			<onclick>ActivateWindow(TVGuide)</onclick>
 			<property name="path">ActivateWindow(TVGuide)</property>
 			<property name="list">TVGuide</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1301,7 +1301,7 @@
 			<onclick>ActivateWindow(TVRecordings)</onclick>
 			<property name="path">ActivateWindow(TVRecordings)</property>
 			<property name="list">TVRecordings</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1316,7 +1316,7 @@
 			<onclick>ActivateWindow(TVTimers)</onclick>
 			<property name="path">ActivateWindow(TVTimers)</property>
 			<property name="list">TVTimers</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1330,7 +1330,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/artists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/artists/,return)</property>
 			<property name="list">videodb://musicvideos/artists/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1344,7 +1344,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/genres,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/genres,return)</property>
 			<property name="list">videodb://musicvideos/genres</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1359,7 +1359,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</property>
 			<property name="list">videodb://recentlyaddedmusicvideos/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1373,7 +1373,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/years/,return)</property>
 			<property name="list">videodb://musicvideos/years/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1387,7 +1387,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/tags/,return)</property>
 			<property name="list">videodb://musicvideos/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1406,7 +1406,7 @@
 			<onclick>ActivateWindow(Videos,Movies,root)</onclick>
 			<property name="path">ActivateWindow(Videos,Movies,root)</property>
 			<property name="list">Movies</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1421,7 +1421,7 @@
 			<onclick>ActivateWindow(Videos,TvShows,root)</onclick>
 			<property name="path">ActivateWindow(Videos,TvShows,root)</property>
 			<property name="list">TvShows</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1435,7 +1435,7 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1449,7 +1449,7 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1463,7 +1463,7 @@
 			<onclick>ActivateWindow(Videos,Playlists,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Playlists,return)</property>
 			<property name="list">Playlists</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1477,7 +1477,7 @@
 			<onclick>ActivateWindow(Videos,Root)</onclick>
 			<property name="path">ActivateWindow(Videos,Root)</property>
 			<property name="list">Root</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1492,7 +1492,7 @@
 			<onclick>ActivateWindow(Videos,Movies,root)</onclick>
 			<property name="path">ActivateWindow(Videos,Movies,root)</property>
 			<property name="list">Movies</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1507,7 +1507,7 @@
 			<onclick>ActivateWindow(Videos,TvShows,root)</onclick>
 			<property name="path">ActivateWindow(Videos,TvShows,root)</property>
 			<property name="list">TvShows</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1521,7 +1521,7 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1535,7 +1535,7 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1549,7 +1549,7 @@
 			<onclick>ActivateWindow(Videos,Playlists,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Playlists,return)</property>
 			<property name="list">Playlists</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1563,7 +1563,7 @@
 			<onclick>ActivateWindow(Videos,Root)</onclick>
 			<property name="path">ActivateWindow(Videos,Root)</property>
 			<property name="list">Root</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1580,7 +1580,7 @@
 			<onclick>ActivateWindow(Videos,Movies,root)</onclick>
 			<property name="path">ActivateWindow(Videos,Movies,root)</property>
 			<property name="list">Movies</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1595,7 +1595,7 @@
 			<onclick>ActivateWindow(Videos,TvShows,root)</onclick>
 			<property name="path">ActivateWindow(Videos,TvShows,root)</property>
 			<property name="list">TvShows</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1609,7 +1609,7 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1623,7 +1623,7 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1637,7 +1637,7 @@
 			<onclick>ActivateWindow(Videos,Playlists,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Playlists,return)</property>
 			<property name="list">Playlists</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1651,7 +1651,7 @@
 			<onclick>ActivateWindow(Videos,Root)</onclick>
 			<property name="path">ActivateWindow(Videos,Root)</property>
 			<property name="list">Root</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1666,7 +1666,7 @@
 			<onclick>ActivateWindow(Videos,Movies,root)</onclick>
 			<property name="path">ActivateWindow(Videos,Movies,root)</property>
 			<property name="list">Movies</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1681,7 +1681,7 @@
 			<onclick>ActivateWindow(Videos,TvShows,root)</onclick>
 			<property name="path">ActivateWindow(Videos,TvShows,root)</property>
 			<property name="list">TvShows</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1695,7 +1695,7 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1709,7 +1709,7 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1723,7 +1723,7 @@
 			<onclick>ActivateWindow(Videos,Playlists,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Playlists,return)</property>
 			<property name="list">Playlists</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1737,7 +1737,7 @@
 			<onclick>ActivateWindow(Videos,Root)</onclick>
 			<property name="path">ActivateWindow(Videos,Root)</property>
 			<property name="list">Root</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x2)</visible>
 			<property name="group">x2</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1754,7 +1754,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Artists,return)</property>
 			<property name="list">Artists</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1769,7 +1769,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Albums,return)</property>
 			<property name="list">Albums</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1784,7 +1784,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Songs,return)</property>
 			<property name="list">Songs</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1798,7 +1798,7 @@
 			<onclick>ActivateWindow(MusicFiles)</onclick>
 			<property name="path">ActivateWindow(MusicFiles)</property>
 			<property name="list">MusicFiles</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1812,7 +1812,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1827,7 +1827,7 @@
 			<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,root)</property>
 			<property name="list">root</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1842,7 +1842,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Artists,return)</property>
 			<property name="list">Artists</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1857,7 +1857,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Albums,return)</property>
 			<property name="list">Albums</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1872,7 +1872,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Songs,return)</property>
 			<property name="list">Songs</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1886,7 +1886,7 @@
 			<onclick>ActivateWindow(MusicFiles)</onclick>
 			<property name="path">ActivateWindow(MusicFiles)</property>
 			<property name="list">MusicFiles</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1900,7 +1900,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1915,7 +1915,7 @@
 			<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,root)</property>
 			<property name="list">root</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1932,7 +1932,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Artists,return)</property>
 			<property name="list">Artists</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1947,7 +1947,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Albums,return)</property>
 			<property name="list">Albums</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1962,7 +1962,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Songs,return)</property>
 			<property name="list">Songs</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1976,7 +1976,7 @@
 			<onclick>ActivateWindow(MusicFiles)</onclick>
 			<property name="path">ActivateWindow(MusicFiles)</property>
 			<property name="list">MusicFiles</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -1990,7 +1990,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2005,7 +2005,7 @@
 			<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,root)</property>
 			<property name="list">root</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2020,7 +2020,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Artists,return)</property>
 			<property name="list">Artists</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2035,7 +2035,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Albums,return)</property>
 			<property name="list">Albums</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2050,7 +2050,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Songs,return)</property>
 			<property name="list">Songs</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2064,7 +2064,7 @@
 			<onclick>ActivateWindow(MusicFiles)</onclick>
 			<property name="path">ActivateWindow(MusicFiles)</property>
 			<property name="list">MusicFiles</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2078,7 +2078,7 @@
 			<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x3)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2093,7 +2093,7 @@
 			<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 			<property name="path">ActivateWindow(MusicLibrary,root)</property>
 			<property name="list">root</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x3</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2109,7 +2109,7 @@
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x4</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2123,7 +2123,7 @@
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x4</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2139,7 +2139,7 @@
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x4)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x4)</visible>
 			<property name="group">x4</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2153,7 +2153,7 @@
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x4)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x4)</visible>
 			<property name="group">x4</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2169,7 +2169,7 @@
 			<onclick>ActivateWindow(AddonBrowser)</onclick>
 			<property name="path">ActivateWindow(AddonBrowser)</property>
 			<property name="list">AddonBrowser</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2183,7 +2183,7 @@
 			<onclick>ActivateWindow(SkinSettings)</onclick>
 			<property name="path">ActivateWindow(SkinSettings)</property>
 			<property name="list">SkinSettings</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2197,7 +2197,7 @@
 			<onclick>ActivateWindow(FileManager)</onclick>
 			<property name="path">ActivateWindow(FileManager)</property>
 			<property name="list">FileManager</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2211,7 +2211,7 @@
 			<onclick>ActivateWindow(Profiles)</onclick>
 			<property name="path">ActivateWindow(Profiles)</property>
 			<property name="list">Profiles</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2225,7 +2225,7 @@
 			<onclick>ActivateWindow(SystemInfo)</onclick>
 			<property name="path">ActivateWindow(SystemInfo)</property>
 			<property name="list">SystemInfo</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2239,7 +2239,7 @@
 			<onclick>ActivateWindow(AddonBrowser)</onclick>
 			<property name="path">ActivateWindow(AddonBrowser)</property>
 			<property name="list">AddonBrowser</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2253,7 +2253,7 @@
 			<onclick>ActivateWindow(SkinSettings)</onclick>
 			<property name="path">ActivateWindow(SkinSettings)</property>
 			<property name="list">SkinSettings</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2267,7 +2267,7 @@
 			<onclick>ActivateWindow(FileManager)</onclick>
 			<property name="path">ActivateWindow(FileManager)</property>
 			<property name="list">FileManager</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2281,7 +2281,7 @@
 			<onclick>ActivateWindow(Profiles)</onclick>
 			<property name="path">ActivateWindow(Profiles)</property>
 			<property name="list">Profiles</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2295,7 +2295,7 @@
 			<onclick>ActivateWindow(SystemInfo)</onclick>
 			<property name="path">ActivateWindow(SystemInfo)</property>
 			<property name="list">SystemInfo</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2311,7 +2311,7 @@
 			<onclick>ActivateWindow(AddonBrowser)</onclick>
 			<property name="path">ActivateWindow(AddonBrowser)</property>
 			<property name="list">AddonBrowser</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2325,7 +2325,7 @@
 			<onclick>ActivateWindow(SkinSettings)</onclick>
 			<property name="path">ActivateWindow(SkinSettings)</property>
 			<property name="list">SkinSettings</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2339,7 +2339,7 @@
 			<onclick>ActivateWindow(FileManager)</onclick>
 			<property name="path">ActivateWindow(FileManager)</property>
 			<property name="list">FileManager</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2353,7 +2353,7 @@
 			<onclick>ActivateWindow(Profiles)</onclick>
 			<property name="path">ActivateWindow(Profiles)</property>
 			<property name="list">Profiles</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2367,7 +2367,7 @@
 			<onclick>ActivateWindow(SystemInfo)</onclick>
 			<property name="path">ActivateWindow(SystemInfo)</property>
 			<property name="list">SystemInfo</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2381,7 +2381,7 @@
 			<onclick>ActivateWindow(AddonBrowser)</onclick>
 			<property name="path">ActivateWindow(AddonBrowser)</property>
 			<property name="list">AddonBrowser</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2395,7 +2395,7 @@
 			<onclick>ActivateWindow(SkinSettings)</onclick>
 			<property name="path">ActivateWindow(SkinSettings)</property>
 			<property name="list">SkinSettings</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2409,7 +2409,7 @@
 			<onclick>ActivateWindow(FileManager)</onclick>
 			<property name="path">ActivateWindow(FileManager)</property>
 			<property name="list">FileManager</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2423,7 +2423,7 @@
 			<onclick>ActivateWindow(Profiles)</onclick>
 			<property name="path">ActivateWindow(Profiles)</property>
 			<property name="list">Profiles</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2437,7 +2437,7 @@
 			<onclick>ActivateWindow(SystemInfo)</onclick>
 			<property name="path">ActivateWindow(SystemInfo)</property>
 			<property name="list">SystemInfo</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x5)</visible>
 			<property name="group">x5</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2454,7 +2454,7 @@
 			<onclick>Powerdown()</onclick>
 			<property name="path">Powerdown()</property>
 			<property name="list">Powerdown()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2469,7 +2469,7 @@
 			<onclick>Reset()</onclick>
 			<property name="path">Reset()</property>
 			<property name="list">Reset()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2484,7 +2484,7 @@
 			<onclick>Suspend()</onclick>
 			<property name="path">Suspend()</property>
 			<property name="list">Suspend()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2499,7 +2499,7 @@
 			<onclick>Hibernate()</onclick>
 			<property name="path">Hibernate()</property>
 			<property name="list">Hibernate()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2514,7 +2514,7 @@
 			<onclick>System.LogOff</onclick>
 			<property name="path">System.LogOff</property>
 			<property name="list">System.LogOff</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2529,7 +2529,7 @@
 			<onclick>Quit</onclick>
 			<property name="path">Quit</property>
 			<property name="list">Quit</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2544,7 +2544,7 @@
 			<onclick>Powerdown()</onclick>
 			<property name="path">Powerdown()</property>
 			<property name="list">Powerdown()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2559,7 +2559,7 @@
 			<onclick>Reset()</onclick>
 			<property name="path">Reset()</property>
 			<property name="list">Reset()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2574,7 +2574,7 @@
 			<onclick>Suspend()</onclick>
 			<property name="path">Suspend()</property>
 			<property name="list">Suspend()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2589,7 +2589,7 @@
 			<onclick>Hibernate()</onclick>
 			<property name="path">Hibernate()</property>
 			<property name="list">Hibernate()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2604,7 +2604,7 @@
 			<onclick>System.LogOff</onclick>
 			<property name="path">System.LogOff</property>
 			<property name="list">System.LogOff</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2619,7 +2619,7 @@
 			<onclick>Quit</onclick>
 			<property name="path">Quit</property>
 			<property name="list">Quit</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2636,7 +2636,7 @@
 			<onclick>Powerdown()</onclick>
 			<property name="path">Powerdown()</property>
 			<property name="list">Powerdown()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2651,7 +2651,7 @@
 			<onclick>Reset()</onclick>
 			<property name="path">Reset()</property>
 			<property name="list">Reset()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2666,7 +2666,7 @@
 			<onclick>Suspend()</onclick>
 			<property name="path">Suspend()</property>
 			<property name="list">Suspend()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2681,7 +2681,7 @@
 			<onclick>Hibernate()</onclick>
 			<property name="path">Hibernate()</property>
 			<property name="list">Hibernate()</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2696,7 +2696,7 @@
 			<onclick>System.LogOff</onclick>
 			<property name="path">System.LogOff</property>
 			<property name="list">System.LogOff</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2711,7 +2711,7 @@
 			<onclick>Quit</onclick>
 			<property name="path">Quit</property>
 			<property name="list">Quit</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2726,7 +2726,7 @@
 			<onclick>Powerdown()</onclick>
 			<property name="path">Powerdown()</property>
 			<property name="list">Powerdown()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2741,7 +2741,7 @@
 			<onclick>Reset()</onclick>
 			<property name="path">Reset()</property>
 			<property name="list">Reset()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2756,7 +2756,7 @@
 			<onclick>Suspend()</onclick>
 			<property name="path">Suspend()</property>
 			<property name="list">Suspend()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2771,7 +2771,7 @@
 			<onclick>Hibernate()</onclick>
 			<property name="path">Hibernate()</property>
 			<property name="list">Hibernate()</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2786,7 +2786,7 @@
 			<onclick>System.LogOff</onclick>
 			<property name="path">System.LogOff</property>
 			<property name="list">System.LogOff</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2801,7 +2801,7 @@
 			<onclick>Quit</onclick>
 			<property name="path">Quit</property>
 			<property name="list">Quit</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x6</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2823,7 +2823,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</property>
 			<property name="list">special://skin/extras/Unwatched.xsp</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2837,7 +2837,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</property>
 			<property name="list">special://skin/extras/InProgress.xsp</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2852,7 +2852,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</property>
 			<property name="list">videodb://recentlyaddedmovies/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2867,7 +2867,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/sets/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/sets/,return)</property>
 			<property name="list">videodb://movies/sets/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2881,7 +2881,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/genres/,return)</property>
 			<property name="list">videodb://movies/genres/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2895,7 +2895,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/years/,return)</property>
 			<property name="list">videodb://movies/years/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2909,7 +2909,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/actors/,return)</property>
 			<property name="list">videodb://movies/actors/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2923,7 +2923,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/tags/,return)</property>
 			<property name="list">videodb://movies/tags/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2937,7 +2937,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</property>
 			<property name="list">special://skin/extras/Unwatched.xsp</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2951,7 +2951,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</property>
 			<property name="list">special://skin/extras/InProgress.xsp</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2966,7 +2966,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</property>
 			<property name="list">videodb://recentlyaddedmovies/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2981,7 +2981,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/sets/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/sets/,return)</property>
 			<property name="list">videodb://movies/sets/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -2995,7 +2995,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/genres/,return)</property>
 			<property name="list">videodb://movies/genres/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3009,7 +3009,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/years/,return)</property>
 			<property name="list">videodb://movies/years/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3023,7 +3023,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/actors/,return)</property>
 			<property name="list">videodb://movies/actors/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3037,7 +3037,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/tags/,return)</property>
 			<property name="list">videodb://movies/tags/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3053,7 +3053,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</property>
 			<property name="list">special://skin/extras/Unwatched.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3067,7 +3067,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</property>
 			<property name="list">special://skin/extras/InProgress.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3082,7 +3082,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</property>
 			<property name="list">videodb://recentlyaddedmovies/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3097,7 +3097,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/sets/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/sets/,return)</property>
 			<property name="list">videodb://movies/sets/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3111,7 +3111,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/genres/,return)</property>
 			<property name="list">videodb://movies/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3125,7 +3125,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/years/,return)</property>
 			<property name="list">videodb://movies/years/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3139,7 +3139,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/actors/,return)</property>
 			<property name="list">videodb://movies/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3153,7 +3153,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/tags/,return)</property>
 			<property name="list">videodb://movies/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3167,7 +3167,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/Unwatched.xsp,return)</property>
 			<property name="list">special://skin/extras/Unwatched.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3181,7 +3181,7 @@
 			<onclick>ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</onclick>
 			<property name="path">ActivateWindow(Videos,special://skin/extras/InProgress.xsp,return)</property>
 			<property name="list">special://skin/extras/InProgress.xsp</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3196,7 +3196,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmovies/,return)</property>
 			<property name="list">videodb://recentlyaddedmovies/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3211,7 +3211,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/sets/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/sets/,return)</property>
 			<property name="list">videodb://movies/sets/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3225,7 +3225,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/genres/,return)</property>
 			<property name="list">videodb://movies/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3239,7 +3239,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/years/,return)</property>
 			<property name="list">videodb://movies/years/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3253,7 +3253,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/actors/,return)</property>
 			<property name="list">videodb://movies/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3267,7 +3267,7 @@
 			<onclick>ActivateWindow(Videos,videodb://movies/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/tags/,return)</property>
 			<property name="list">videodb://movies/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x10)</visible>
 			<property name="group">x10</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3284,7 +3284,7 @@
 			<onclick>RunAddon(script.tv.show.next.aired,return)</onclick>
 			<property name="path">RunAddon(script.tv.show.next.aired,return)</property>
 			<property name="list">RunAddon(script.tv.show.next.aired,return)</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3298,7 +3298,7 @@
 			<onclick>ActivateWindow(Videos,library://video/inprogressshows.xml,return)</onclick>
 			<property name="path">ActivateWindow(Videos,library://video/inprogressshows.xml,return)</property>
 			<property name="list">library://video/inprogressshows.xml</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3313,7 +3313,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</property>
 			<property name="list">videodb://recentlyaddedepisodes/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3327,7 +3327,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/genres/,return)</property>
 			<property name="list">videodb://tvshows/genres/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3341,7 +3341,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/years/,return)</property>
 			<property name="list">videodb://tvshows/years/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3355,7 +3355,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/actors/,return)</property>
 			<property name="list">videodb://tvshows/actors/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3370,7 +3370,7 @@
 			<onclick>RunAddon(script.tv.show.next.aired,return)</onclick>
 			<property name="path">RunAddon(script.tv.show.next.aired,return)</property>
 			<property name="list">RunAddon(script.tv.show.next.aired,return)</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3384,7 +3384,7 @@
 			<onclick>ActivateWindow(Videos,library://video/inprogressshows.xml,return)</onclick>
 			<property name="path">ActivateWindow(Videos,library://video/inprogressshows.xml,return)</property>
 			<property name="list">library://video/inprogressshows.xml</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3399,7 +3399,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</property>
 			<property name="list">videodb://recentlyaddedepisodes/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3413,7 +3413,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/genres/,return)</property>
 			<property name="list">videodb://tvshows/genres/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3427,7 +3427,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/years/,return)</property>
 			<property name="list">videodb://tvshows/years/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3441,7 +3441,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/actors/,return)</property>
 			<property name="list">videodb://tvshows/actors/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3458,7 +3458,7 @@
 			<onclick>RunAddon(script.tv.show.next.aired,return)</onclick>
 			<property name="path">RunAddon(script.tv.show.next.aired,return)</property>
 			<property name="list">RunAddon(script.tv.show.next.aired,return)</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3472,7 +3472,7 @@
 			<onclick>ActivateWindow(Videos,library://video/inprogressshows.xml,return)</onclick>
 			<property name="path">ActivateWindow(Videos,library://video/inprogressshows.xml,return)</property>
 			<property name="list">library://video/inprogressshows.xml</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3487,7 +3487,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</property>
 			<property name="list">videodb://recentlyaddedepisodes/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3501,7 +3501,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/genres/,return)</property>
 			<property name="list">videodb://tvshows/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3515,7 +3515,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/years/,return)</property>
 			<property name="list">videodb://tvshows/years/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3529,7 +3529,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/actors/,return)</property>
 			<property name="list">videodb://tvshows/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3544,7 +3544,7 @@
 			<onclick>RunAddon(script.tv.show.next.aired,return)</onclick>
 			<property name="path">RunAddon(script.tv.show.next.aired,return)</property>
 			<property name="list">RunAddon(script.tv.show.next.aired,return)</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3558,7 +3558,7 @@
 			<onclick>ActivateWindow(Videos,library://video/inprogressshows.xml,return)</onclick>
 			<property name="path">ActivateWindow(Videos,library://video/inprogressshows.xml,return)</property>
 			<property name="list">library://video/inprogressshows.xml</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3573,7 +3573,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedepisodes/,return)</property>
 			<property name="list">videodb://recentlyaddedepisodes/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3587,7 +3587,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/genres/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/genres/,return)</property>
 			<property name="list">videodb://tvshows/genres/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3601,7 +3601,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/years/,return)</property>
 			<property name="list">videodb://tvshows/years/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3615,7 +3615,7 @@
 			<onclick>ActivateWindow(Videos,videodb://tvshows/actors/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/actors/,return)</property>
 			<property name="list">videodb://tvshows/actors/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x11)</visible>
 			<property name="group">x11</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3632,7 +3632,7 @@
 			<onclick>ActivateWindow(RadioChannels)</onclick>
 			<property name="path">ActivateWindow(RadioChannels)</property>
 			<property name="list">RadioChannels</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3647,7 +3647,7 @@
 			<onclick>ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
 			<property name="list">TVChannels</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3662,7 +3662,7 @@
 			<onclick>ActivateWindow(TVGuide)</onclick>
 			<property name="path">ActivateWindow(TVGuide)</property>
 			<property name="list">TVGuide</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3677,7 +3677,7 @@
 			<onclick>ActivateWindow(TVRecordings)</onclick>
 			<property name="path">ActivateWindow(TVRecordings)</property>
 			<property name="list">TVRecordings</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3692,7 +3692,7 @@
 			<onclick>ActivateWindow(TVTimers)</onclick>
 			<property name="path">ActivateWindow(TVTimers)</property>
 			<property name="list">TVTimers</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3707,7 +3707,7 @@
 			<onclick>ActivateWindow(RadioChannels)</onclick>
 			<property name="path">ActivateWindow(RadioChannels)</property>
 			<property name="list">RadioChannels</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3722,7 +3722,7 @@
 			<onclick>ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
 			<property name="list">TVChannels</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3737,7 +3737,7 @@
 			<onclick>ActivateWindow(TVGuide)</onclick>
 			<property name="path">ActivateWindow(TVGuide)</property>
 			<property name="list">TVGuide</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3752,7 +3752,7 @@
 			<onclick>ActivateWindow(TVRecordings)</onclick>
 			<property name="path">ActivateWindow(TVRecordings)</property>
 			<property name="list">TVRecordings</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3767,7 +3767,7 @@
 			<onclick>ActivateWindow(TVTimers)</onclick>
 			<property name="path">ActivateWindow(TVTimers)</property>
 			<property name="list">TVTimers</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3784,7 +3784,7 @@
 			<onclick>ActivateWindow(RadioChannels)</onclick>
 			<property name="path">ActivateWindow(RadioChannels)</property>
 			<property name="list">RadioChannels</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3799,7 +3799,7 @@
 			<onclick>ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
 			<property name="list">TVChannels</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3814,7 +3814,7 @@
 			<onclick>ActivateWindow(TVGuide)</onclick>
 			<property name="path">ActivateWindow(TVGuide)</property>
 			<property name="list">TVGuide</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3829,7 +3829,7 @@
 			<onclick>ActivateWindow(TVRecordings)</onclick>
 			<property name="path">ActivateWindow(TVRecordings)</property>
 			<property name="list">TVRecordings</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3844,7 +3844,7 @@
 			<onclick>ActivateWindow(TVTimers)</onclick>
 			<property name="path">ActivateWindow(TVTimers)</property>
 			<property name="list">TVTimers</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3859,7 +3859,7 @@
 			<onclick>ActivateWindow(RadioChannels)</onclick>
 			<property name="path">ActivateWindow(RadioChannels)</property>
 			<property name="list">RadioChannels</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3874,7 +3874,7 @@
 			<onclick>ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
 			<property name="list">TVChannels</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3889,7 +3889,7 @@
 			<onclick>ActivateWindow(TVGuide)</onclick>
 			<property name="path">ActivateWindow(TVGuide)</property>
 			<property name="list">TVGuide</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3904,7 +3904,7 @@
 			<onclick>ActivateWindow(TVRecordings)</onclick>
 			<property name="path">ActivateWindow(TVRecordings)</property>
 			<property name="list">TVRecordings</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3919,7 +3919,7 @@
 			<onclick>ActivateWindow(TVTimers)</onclick>
 			<property name="path">ActivateWindow(TVTimers)</property>
 			<property name="list">TVTimers</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x12</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3935,7 +3935,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/artists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/artists/,return)</property>
 			<property name="list">videodb://musicvideos/artists/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3949,7 +3949,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/genres,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/genres,return)</property>
 			<property name="list">videodb://musicvideos/genres</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3964,7 +3964,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</property>
 			<property name="list">videodb://recentlyaddedmusicvideos/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3978,7 +3978,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/years/,return)</property>
 			<property name="list">videodb://musicvideos/years/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -3992,7 +3992,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/tags/,return)</property>
 			<property name="list">videodb://musicvideos/tags/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4006,7 +4006,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/artists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/artists/,return)</property>
 			<property name="list">videodb://musicvideos/artists/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4020,7 +4020,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/genres,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/genres,return)</property>
 			<property name="list">videodb://musicvideos/genres</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4035,7 +4035,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</property>
 			<property name="list">videodb://recentlyaddedmusicvideos/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4049,7 +4049,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/years/,return)</property>
 			<property name="list">videodb://musicvideos/years/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4063,7 +4063,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/tags/,return)</property>
 			<property name="list">videodb://musicvideos/tags/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4079,7 +4079,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/artists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/artists/,return)</property>
 			<property name="list">videodb://musicvideos/artists/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4093,7 +4093,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/genres,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/genres,return)</property>
 			<property name="list">videodb://musicvideos/genres</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4108,7 +4108,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</property>
 			<property name="list">videodb://recentlyaddedmusicvideos/</property>
-			<visible>StringCompare(System.ProfileName,Master use)</visible>
+			<visible>StringCompare(System.ProfileName,Master)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4122,7 +4122,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/years/,return)</property>
 			<property name="list">videodb://musicvideos/years/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4136,7 +4136,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/tags/,return)</property>
 			<property name="list">videodb://musicvideos/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Master use)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Master)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4150,7 +4150,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/artists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/artists/,return)</property>
 			<property name="list">videodb://musicvideos/artists/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4164,7 +4164,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/genres,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/genres,return)</property>
 			<property name="list">videodb://musicvideos/genres</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4179,7 +4179,7 @@
 			<onclick>ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://recentlyaddedmusicvideos/,return)</property>
 			<property name="list">videodb://recentlyaddedmusicvideos/</property>
-			<visible>StringCompare(System.ProfileName,Des)</visible>
+			<visible>StringCompare(System.ProfileName,Test)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4193,7 +4193,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/years/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/years/,return)</property>
 			<property name="list">videodb://musicvideos/years/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
@@ -4207,7 +4207,7 @@
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/tags/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/tags/,return)</property>
 			<property name="list">videodb://musicvideos/tags/</property>
-			<visible>[StringCompare(System.ProfileName,Des)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
+			<visible>[StringCompare(System.ProfileName,Test)] + StringCompare(Window(10000).Property(submenuVisibility),x13)</visible>
 			<property name="group">x13</property>
 			<property name="isSubmenu">True</property>
 		</item>
