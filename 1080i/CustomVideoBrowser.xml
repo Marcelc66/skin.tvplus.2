@@ -128,9 +128,16 @@
 				</focusedlayout>
                 <content>
                     <item id="1">
-                        <onclick>PlayMedia(https://drive.google.com/file/d/0B5YD8EESm9NIUDZxalhfVFhYZGc/preview)</onclick>
+                        <onclick>Close</onclick>
+                        <onclick>PlayMedia(http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4)</onclick>
                         <icon>special://skin/x/Icon/xactuicon250.png</icon>
-                        <label>SkyFall 4K</label>
+                        <label>Big Buck Bunny Test 1</label>
+                    </item>
+                    <item id="2">
+                        <onclick>Close</onclick>
+                        <onclick>PlayMedia(http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_2mb.mp4)</onclick>
+                        <icon>special://skin/x/Icon/xactuicon250.png</icon>
+                        <label>Big Buck Bunny Test 2</label>
                     </item>
                 </content>
 			</control>
