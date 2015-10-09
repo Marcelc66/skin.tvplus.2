@@ -54,7 +54,7 @@
                 <font>font13</font>
                 <align>center</align>
                 <pagecontrol>9003</pagecontrol>
-                <label>[CR]Stay tuned for some really exciting changes[CR][CR]Mr. WICKED is working on bringing you[CR]Great new TV PLUS features[CR][CR]Partners with exclusive offers for our customers[CR][CR]You’re going to LOVE your TV PLUS even more…</label>
+                <label>[CR]Stay tuned for some really exciting changes[CR][CR]Mr. WICKED is working on bringing you[CR][CR]Great new TV PLUS features[CR][CR]Partners with exclusive offers for our customers[CR][CR]You’re going to LOVE your TV PLUS even more…</label>
                 <textcolor>grey2</textcolor>
                 <autoscroll time="3000" delay="10000" repeat="10000">true</autoscroll>
             </control>

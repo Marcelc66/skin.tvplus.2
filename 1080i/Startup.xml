@@ -11,6 +11,12 @@
 	<onload condition="StringCompare(Skin.String(Overlay.Toggle),2)">SetProperty(Overlay.Path,overlays/showcase/2/,home)</onload>
 	<onload condition="StringCompare(Skin.String(Overlay.Toggle),3)">SetProperty(Overlay.Path,overlays/showcase/3/,home)</onload>
 	<onload condition="Skin.HasSetting(Disable.Resumable)">SetProperty(Overlay.Resumable,True,home)</onload>
+    
+    <!-- Change NEWPOP value (all three spots) to have CustomPopUp window display on startup -->
+    <onload condition="!StringCompare(Skin.String(TVPLUS.InfoPopReset),NEWPOP2)">Skin.Reset(TVPLUS.InfoPop)</onload>
+    <onload condition="!StringCompare(Skin.String(TVPLUS.InfoPopReset),NEWPOP2)">Skin.SetString(TVPLUS.InfoPopReset,NEWPOP2)</onload>
+
+
 	<onload>ReplaceWindow($INFO[System.StartupWindow])</onload>
 	<controls />
 </window>

@@ -1,3 +1,7 @@
+[B]6.0.8[/B]
+CustomPopUp text
+Add trigger in startup to get PopUp welcome to launch again (change NEWPOP value)
+
 [B]6.0.7[/B]
 Remove reboot submenu item
 Focus Yes Quit by default on quit menu
